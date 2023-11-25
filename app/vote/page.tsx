@@ -8,6 +8,7 @@ const votees = [{ name: '田中' }, { name: '田中' }, { name: '田中' }, { na
 const eventName = "作品の人気投票";
 //const eventName = 
 
+
 export default function Home() {
     votee();
     const data = votee();
@@ -15,12 +16,15 @@ export default function Home() {
     const vote = () => {
         alert("田中");
     }
+    
     return (
         <>
             <h1 className={styles['title']}>{eventName}</h1>
             <p className={styles['sentence']}>以下の中から投票したい人を選んでください！</p>
 
+
             {/* {votees.map((votee, i) => (
+
                 <button
                     className={styles['btn']}
                     key={i}
@@ -42,6 +46,7 @@ export default function Home() {
                 </button>
             )
             )}
+
 
 
             <ResultLink />

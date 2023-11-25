@@ -1,4 +1,5 @@
 import Image from 'next/image'
+
 import data  from '../../public/voting.json'
 import { useContractRead } from 'wagmi';
 
