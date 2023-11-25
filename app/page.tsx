@@ -20,12 +20,8 @@ const config = createConfig({
 
 export default function Home() {
   return (
-<<<<<<< HEAD
-  <p>こんにちは</p>
-=======
     <WagmiConfig config = {config}>
       <Profile />
     </WagmiConfig>
->>>>>>> connectBC
   )
 }
