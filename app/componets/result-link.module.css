@@ -4,3 +4,9 @@
     text-decoration: underline;
     
 }
+
+.result {
+    color: orange;
+    font-size: 3em;
+    font-weight: bold;
+}
