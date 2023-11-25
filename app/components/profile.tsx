@@ -1,3 +1,4 @@
+"use client"
 import { useEffect } from 'react'
 import { useAccount, useConnect, useDisconnect } from 'wagmi'
 
@@ -23,8 +24,7 @@ function Profile() {
         
         <div>
             <p>Address: {address}</p>
-            {/* <button onClick={() => connect()}>Connect Wallet</button> */}
-            <button >Connect</button>
+            <button onClick={() => connect()}>Connect Wallet</button>
             <button onClick={() => disconnect()}>Disconnect</button>
         </div>
     )
