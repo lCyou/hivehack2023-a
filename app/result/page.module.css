@@ -1,5 +1,4 @@
-.btn {
-    background-color: gray;
+.result {
     font-size: 2em;
 }
 
@@ -11,6 +10,7 @@
 }
 
 .sentence {
-    color: black;
-    font-size: 2em;
+    color:black;
+    font-size: 1.5em;
+    
 }
